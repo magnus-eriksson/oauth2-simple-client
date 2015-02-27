@@ -1,0 +1,20 @@
+{
+    "name": "maer/oauth2-simple-client",
+    "description": "Wrapper for league/oauth2-client with a simplified API and possibility to allow/deny e-mail addresses/domains",
+    "require": {
+        "league/oauth2-client": "0.9.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Magnus Eriksson",
+            "email": "maer@reloop.se"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Maer\\Oauth2Simple\\Client\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

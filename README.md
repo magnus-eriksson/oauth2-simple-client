@@ -77,7 +77,7 @@ If you want to do something that league/oauth2-client supports but isn't added t
 
 ### The manual way
 
-    $provider = Maer\Oauth2Simple\Client\Client([
+    $provider = new Maer\Oauth2Simple\Client\Client([
         'clientId'       => 'XXXXXXXX',
         'clientSecret'   => 'XXXXXXXX',
         'redirectUri'    => 'https://example.com/callback/',
